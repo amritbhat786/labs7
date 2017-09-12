@@ -9,7 +9,7 @@ void main()
 	int s,n,source,file;
 	struct sockaddr_in addr;
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons(5000);
+	addr.sin_port = htons(1000);
 	addr.sin_addr.s_addr = INADDR_ANY;
 
 	printf("Waiting for request...\n");
